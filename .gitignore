@@ -1,0 +1,14 @@
+# First, ignore everything
+*
+
+# Now, whitelist anything that's a directory
+!*/
+.ipynb_checkpoints/
+
+# And all the file types you're interested in.
+!.gitignore
+!*.py
+!*.txt
+!*.ipynb
+
+_*.txt
